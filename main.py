@@ -3,10 +3,10 @@ from SQLServerDB import SqlCRUD
 
 
 def main():
-    server = 'DESKTOP-E0FLFBP\ADITYASQL'
+    server = ''
     database = 'PythonSQLInteractionDemo'
-    username = 'sa'
-    password = 'Password@2809'
+    username = ''
+    password = ''
 
     db = SqlCRUD(server, database, username, password)
     db.connect()
