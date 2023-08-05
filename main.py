@@ -47,6 +47,7 @@ def main():
         elif choice == "5":
             db.disconnect()
             print("Thank you for using this service. And the connection has been closed")
+            break
 
         else:
             print("Invalid choice. Please select a valid option.")
