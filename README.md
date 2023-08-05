@@ -8,3 +8,9 @@ Features:
 - Implementing CRUD operations (Create, Read, Update, Delete) with user input.
 - Providing error handling for robustness.
 - Demonstrating database interaction in a Python project.
+
+
+Install Required Libraries before running code:
+Ensure you have `pyodbc` installed. You can install it using pip in terminal:
+>> pip install pyodbc
+
